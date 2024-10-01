@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tutorials - ElectroShop</title>
+    <link rel="stylesheet" href="C:\Users\USER\Downloads\project\css\style.css">
+</head>
+<style>
+
+   
+{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #c4f4f4;
+    color: #333;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    text-decoration: underline;
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+.tutorials h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.tutorial-categories {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.category {
+    background-color: #fff;
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.category h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.category p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.tutorial-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.tutorial-btn:hover {
+    background-color: #333;
+}
+
+
+.featured-videos {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.featured-videos h3 {
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.video {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.video iframe {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.video p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+</style>
+
+<body>
+   
+    <header>
+        <div class="logo">
+            <h1>ElectroShop</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="tutorials.html" class="active">Tutorials</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <main>
+        <section class="tutorials">
+            <h2>Electronics Tutorials</h2>
+
+           
+            <div class="tutorial-categories">
+                <div class="category">
+                    <h3>Smartphones</h3>
+                    <p>Learn how to set up, optimize, and troubleshoot your smartphone.</p>
+                    <a href="https://www.quora.com" class="tutorial-btn">Explore Tutorials</a>
+                </div>
+                <div class="category">
+                    <h3>Home Theater Systems</h3>
+                    <p>Step-by-step guides to setting up your home theater system for the best experience.</p>
+                    <a href="https://www.bestbuy.com" class="tutorial-btn">Explore Tutorials</a>
+                </div>
+                <div class="category">
+                    <h3>Smart TVs</h3>
+                    <p>Discover how to get the most out of your smart TV with tips and tricks.</p>
+                    <a href="https://www.quora.com" class="tutorial-btn">Explore Tutorials</a>
+                </div>
+                <div class="category">
+                    <h3>Gaming Consoles</h3>
+                    <p>Optimize your gaming setup with these tutorials.</p>
+                    <a href="https:help.tablettopia.com" class="tutorial-btn">Explore Tutorials</a>
+                </div>
+                <div class="category">
+                    <h3>Wireless Devices</h3>
+                    <p>Understand the basics of connecting wireless devices like earbuds, speakers, and more.</p>
+                    <a href="https://www.quora.com" class="tutorial-btn">Explore Tutorials</a>
+                </div>
+            </div>
+
+           
+            <section class="featured-videos">
+                <h3>Featured Tutorials</h3>
+                <div class="video-container">
+                    <div class="video">
+                        <iframe width="100%" height="315" src="images\home.mp4" 
+                        title="Smartphone Setup Guide" frameborder="0" allow="accelerometer; autoplay; 
+                        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p>Smartphone Setup Guide</p>
+                    </div>
+                    <div class="video">
+                        <iframe width="100%" height="315" src="images\home.mp4" 
+                        title="Home Theater Optimization" frameborder="0" allow="accelerometer; autoplay; 
+                        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p>Home Theater Optimization Tips</p>
+                    </div>
+                    <div class="video">
+                        <iframe width="100%" height="315" src="images\home.mp4" 
+                        title="Smart TV Configuration" frameborder="0" allow="accelerometer; autoplay; 
+                        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p>Smart TV Configuration Guide</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    
+    <footer>
+        <p>&copy; 2024 ElectroShop. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

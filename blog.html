@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Blog - ElectroShop</title>
+    <link rel="stylesheet" href="C:\Users\USER\Downloads\project\css\style.css">
+</head>
+<style>
+   
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #c4f4f4;
+    color: #333;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    text-decoration: underline;
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+.blog h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #333;
+}
+
+
+.blog-posts {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.post {
+    background-color: #fff;
+    width: 45%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.post h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.post p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.post a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.post a:hover {
+    color: #333;
+}
+
+
+.read-more-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.read-more-btn:hover {
+    background-color: #333;
+}
+
+
+.post:hover {
+    transform: scale(1.03);
+    
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+</style>
+<body>
+   
+    <header>
+        <div class="logo">
+            <h1>ElectroShop</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="tutorials.html">Tutorials</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <main>
+        <section class="blog">
+            <h2>Latest from Our Blog</h2>
+           
+            <div class="blog-posts">
+                <article class="post">
+                    <img src="images\5g.jpg" alt="5G Technology">
+                    <h3><a href="#">How 5G Technology is Changing the Electronics Industry</a></h3>
+                    <p>Explore the revolutionary impact of 5G technology on smartphones, IoT devices, and more.</p>
+                    <a href="https//www.youtube.com" class="read-more-btn">Read More</a>
+                </article>
+
+                <article class="post">
+                    <img src="images\rise.jpg" alt="Wearable Tech">
+                    <h3><a href="https//www.youtube.com">The Rise of Wearable Technology: What's Next?</a></h3>
+                    <p>Find out how wearable devices are transforming our daily lives and what the future holds.</p>
+                    <a href="https//www.youtube.com" class="read-more-btn">Read More</a>
+                </article>
+
+                <article class="post">
+                    <img src="images\smart home.jpg" alt="Smart Homes">
+                    <h3><a href="https//www.youtube.com">Top 10 Smart Home Devices You Should Know About</a></h3>
+                    <p>From smart lights to smart speakers, discover the best devices to make your home smarter.</p>
+                    <a href="https//www.youtube.com" class="read-more-btn">Read More</a>
+                </article>
+
+                <article class="post">
+                    <img src="images\game.jpg" alt="Gaming Consoles">
+                    <h3><a href="https//www.youtube.com">Which Gaming Console is Right for You? A Detailed Comparison</a></h3>
+                    <p>PS5 vs. Xbox Series X vs. Nintendo Switch - which is the best fit for your gaming needs?</p>
+                    <a href="https//www.youtube.com" class="read-more-btn">Read More</a>
+                </article>
+
+                
+            </div>
+        </section>
+    </main>
+
+  
+    <footer>
+        <p>&copy; 2024 ElectroShop. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
